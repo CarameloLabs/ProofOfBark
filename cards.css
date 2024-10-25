@@ -1,15 +1,13 @@
 .card{
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    border: 1px solid black;
+    width: 100vw-10px;
+    height: 100vh;
 }
 
 .card-info{
-    height: 25%;
+    height: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -18,7 +16,7 @@
 }
 
 .card-tap{
-    height: 50%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +25,7 @@
 }
 
 .card-cards{
-    height: 50%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +34,7 @@
 }
 
 .card-buy{
-    height: 50%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +43,7 @@
 }
 
 .card-buttons{
-    height: 25%;
+    height: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
