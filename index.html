@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap To Earn Caramelo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="imgs.css">
+    <link rel="stylesheet" href="cards.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <div class="card-info">
+                <div class="cards-div">
+                    <p>Cartas:</p>
+                    <label id="cards">0</label>
+                </div>
+                <div class="points-div">
+                    <p>Pontos:</p>
+                    <label id="points">0</label>
+                </div>
+            </div>
+
+            <div id="card-play" class="card-tap">
+                <button onclick="addPoints()" class="click-button">
+                    TAP
+                </button>
+            </div>
+
+            <div id="card-cards" class="card-cards">
+                <div id="owned-cards" class="render-imgs">
+                    <!-- Cartas compradas aparecerão aqui -->
+                </div>
+            </div>
+
+            <div id="card-buy" class="card-buy" style="display: none;">
+                <div id="render-buy" class="render-imgs">
+                    <div class="img-div" id="card-0">
+                        <img class="img-card" src="caramelo.png" alt="">
+                        <p>Preço: 10 pontos</p>
+                        <button onclick="buyCard(0)">Comprar</button>
+                    </div>
+                    <div class="img-div" id="card-1">
+                        <img class="img-card" src="caramelo.png" alt="">
+                        <p>Preço: 20 pontos</p>
+                        <button onclick="buyCard(1)">Comprar</button>
+                    </div>
+                    <div class="img-div" id="card-2">
+                        <img class="img-card" src="caramelo.png" alt="">
+                        <p>Preço: 30 pontos</p>
+                        <button onclick="buyCard(2)">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-buttons">
+                <button onclick="switchLayout('cards')">Cartas</button>
+                <button onclick="switchLayout('play')">Jogar</button>
+                <button onclick="switchLayout('buy')">Comprar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

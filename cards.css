@@ -1,0 +1,52 @@
+.card{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.card-info{
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-tap{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-cards{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-buy{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.card-buttons{
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
